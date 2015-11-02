@@ -14,6 +14,7 @@
 		D1A4BB9B1BE157380080F76A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A4BB991BE157380080F76A /* LaunchScreen.storyboard */; };
 		D1A4BBA61BE157380080F76A /* hamburgerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A4BBA51BE157380080F76A /* hamburgerDemoTests.swift */; };
 		D1A4BBB11BE157380080F76A /* hamburgerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A4BBB01BE157380080F76A /* hamburgerDemoUITests.swift */; };
+		D1EEE2D31BE16255000B4AE2 /* hamburgerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EEE2D21BE16255000B4AE2 /* hamburgerDemoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D1A4BBAC1BE157380080F76A /* hamburgerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hamburgerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A4BBB01BE157380080F76A /* hamburgerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamburgerDemoUITests.swift; sourceTree = "<group>"; };
 		D1A4BBB21BE157380080F76A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1EEE2D21BE16255000B4AE2 /* hamburgerDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hamburgerDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D1A4BB901BE157370080F76A /* AppDelegate.swift */,
 				D1A4BB921BE157370080F76A /* ViewController.swift */,
 				D1A4BB941BE157370080F76A /* Main.storyboard */,
+				D1EEE2D21BE16255000B4AE2 /* hamburgerDemoViewController.swift */,
 				D1A4BB971BE157370080F76A /* Assets.xcassets */,
 				D1A4BB991BE157380080F76A /* LaunchScreen.storyboard */,
 				D1A4BB9C1BE157380080F76A /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A4BB931BE157370080F76A /* ViewController.swift in Sources */,
+				D1EEE2D31BE16255000B4AE2 /* hamburgerDemoViewController.swift in Sources */,
 				D1A4BB911BE157370080F76A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				D1A4BBB71BE157380080F76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1A4BBB81BE157380080F76A /* Build configuration list for PBXNativeTarget "hamburgerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D1A4BBBA1BE157380080F76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1A4BBBB1BE157380080F76A /* Build configuration list for PBXNativeTarget "hamburgerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D1A4BBBD1BE157380080F76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
